@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:c="http://www.springframework.org/schema/c" xmlns:cache="http://www.springframework.org/schema/cache" xmlns:context="http://www.springframework.org/schema/context" xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:jee="http://www.springframework.org/schema/jee" xmlns:lang="http://www.springframework.org/schema/lang" xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p" xmlns:task="http://www.springframework.org/schema/task" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- 静态资源的处理 -->
+	<mvc:resources mapping="/static/**" location="/static/" />
+	<mvc:resources mapping="/js/**" location="/static/" />
+	<mvc:resources mapping="/css/**" location="/static/" />
+	<mvc:resources mapping="/file/**" location="/file/" />
+	<mvc:resources mapping="/demo/**" location="/demo/" />
+
+	<!-- JSP解析器 -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/jsp/" p:suffix=".jsp" />
+
+	<!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->
+	<bean id="stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">
+		<constructor-arg value="UTF-8" index="0"></constructor-arg><!-- 避免出现乱码 -->
+		<property name="supportedMediaTypes">
+			<list>
+				<value>text/plain;charset=UTF-8</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- Spring MVC JSON配置 -->
+	<bean id="fastJsonHttpMessageConverter" class="com.wangfanpinche.utils.JsonConverterUtil">
+		<property name="supportedMediaTypes">
+			<list>
+				<value>application/json;charset=UTF-8</value>
+				<value>text/html;charset=UTF-8</value><!-- 避免IE出现下载JSON文件的情况 -->
+			</list>
+		</property>
+	</bean>
+
+
+	<!-- 自动扫描且只扫描@Controller -->
+	<context:component-scan base-package="com.wangfanpinche.controller" />
+
+	<!-- 以下 validator ConversionService 在使用 mvc:annotation-driven 会 自动注册 -->
+	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+		<!-- 如果不加默认到 使用classpath下的 ValidationMessages.properties -->
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+
+	<!-- 国际化的消息资源文件（本系统中主要用于显示/错误消息定制） -->
+	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<!-- 在web环境中一定要定位到classpath 否则默认到当前web应用下找 -->
+				<value>classpath:messages/messages</value>
+				<value>classpath:org/hibernate/validator/ValidationMessages</value>
+			</list>
+		</property>
+		<property name="useCodeAsDefaultMessage" value="false" />
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="cacheSeconds" value="60" />
+	</bean>
+
+	<!-- 文件上传 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- set the max upload size100MB -->
+		<property name="maxUploadSize">
+			<value>104857600</value>
+		</property>
+		<property name="maxInMemorySize">
+			<value>1024000</value>
+		</property>
+	</bean>
+
+	<!-- 消息转换器 -->
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="webBindingInitializer">
+			<bean class="org.springframework.web.bind.support.ConfigurableWebBindingInitializer">
+				<property name="validator" ref="validator" />
+				<property name="conversionService">
+					<bean class="org.springframework.format.support.FormattingConversionServiceFactoryBean"></bean>
+				</property>
+			</bean>
+		</property>
+		<property name="messageConverters">
+			<list>
+				<ref bean="stringHttpMessageConverter" />
+				<ref bean="fastJsonHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 权限拦截器 -->
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<bean class="com.wangfanpinche.interceptor.SecurityInterceptor">
+					<!-- 不需要权限验证的地址 -->
+					<property name="excludeUrls">
+						<list>
+							<value>/init</value><!-- 初始化数据 -->
+							<value>/user/sendVerify</value><!-- 1.1 手机端登录-输入手机号，发送验证码 -->
+							<value>/user/loginByPhone</value><!-- 1.2 手机端，输入验证码，登录 -->
+							<value>/user/loginByPc</value><!-- 网页用户登录 -->
+							<value>/user/logoutByPc</value><!-- 网页用户退出 -->
+							<value>/user/logoutByPhone</value><!-- 手机端退出 -->
+							<value>/v/show</value><!-- 手机端版本更新 -->
+							<value>/ownerorder/alipayHonesty</value><!-- 支付宝车主支付诚信必发 -->
+							<value>/ownerorder/alipayPassenger</value><!-- 支付宝乘客支付车主车单 -->
+							<value>/passengerorder/alipayPassenger</value><!-- 支付宝乘客支付乘客车单 -->
+							<value>/user/alipayCashIn</value><!-- 支付宝充值 -->
+							<value>/ownerorder/wechatPayHonesty</value><!-- 微信车主支付诚信必发 -->
+							<value>/ownerorder/wechatPayPassenger</value><!-- 微信乘客支付车主车单 -->
+							<value>/passengerorder/wechatPayPassenger</value><!-- 微信乘客支付乘客车单 -->
+							<value>/user/wechatPayCashIn</value><!-- 微信充值 -->
+							<value>/advertise/list</value><!-- App广告 -->
+							<value>/OrderOwner/honestyAliPayNotify</value><!-- 支付宝车主支付诚信必发 -->
+							<value>/OrderOwner/honestyWechatPayNotify</value><!-- 微信车主支付诚信必发 -->
+							<value>/OrderPassenger/orderPassengerAliPayNotify</value><!-- 支付宝乘客支付 -->
+							<value>/OrderPassenger/orderPassengerWechatPayNotify</value><!-- 微信乘客支付 -->
+							<value>/root.jsp</value><!-- 微信乘客支付 -->
+						</list>
+					</property>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+</beans>

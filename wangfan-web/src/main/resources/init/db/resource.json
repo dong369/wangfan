@@ -1,0 +1,276 @@
+[
+{"id":"xtgn","name":"系统功能","roles":[],"seq":1,"type":"菜单","url":"/user/index"},
+
+
+{"id":"xtgn_yhgl","name":"用户管理","roles":[],"seq":1,"type":"菜单","url":"/user/manager", "resourceId":"xtgn"},
+{"id":"xtgn_yhgl_usertable","name":"用户列表","roles":[],"seq":1,"type":"功能","url":"/user/table", "resourceId":"xtgn_yhgl"},
+{"id":"xtgn_yhgl_userable","name":"用户启用","roles":[],"seq":2,"type":"功能","url":"/user/able", "resourceId":"xtgn_yhgl"},
+{"id":"xtgn_yhgl_userenable","name":"用户禁用","roles":[],"seq":3,"type":"功能","url":"/user/enable", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userInfo","name":"查看个人资料","roles":[],"seq":4,"type":"功能","url":"/user/userInfo", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userDetail","name":"查看个人详细资料","roles":[],"seq":5,"type":"功能","url":"/user/userDetail", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_editUser","name":"编辑个人资料","roles":[],"seq":6,"type":"功能","url":"/user/editUser", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_hasUserApprove","name":"是否通过实名认证","roles":[],"seq":7,"type":"功能","url":"/user/hasUserApprove", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userApprove","name":"实名认证","roles":[],"seq":8,"type":"功能","url":"/user/userApprove", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_usergetCarByUserId","name":"根据用户id获取车辆信息","roles":[],"seq":11,"type":"功能","url":"/user/getCarByUserId", "resourceId":"xtgn_yhgl"},
+{"id":"xtgn_usermenu","name":"后台菜单","roles":[],"seq":12,"type":"功能","url":"/user/userMenu", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_addSos","name":"添加紧急联系人","roles":[],"seq":13,"type":"功能","url":"/user/addSos", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_getSos","name":"查询紧急联系人","roles":[],"seq":14,"type":"功能","url":"/user/getSos", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_alipayCashInInfo","name":"支付宝充值","roles":[],"seq":15,"type":"功能","url":"/user/alipayCashInInfo", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_cashOutInfo","name":"提现","roles":[],"seq":16,"type":"功能","url":"/user/cashOutInfo", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_journallist","name":"账单列表","roles":[],"seq":17,"type":"功能","url":"/journal/list", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_procityfind","name":"查询出所有的市","roles":[],"seq":18,"type":"功能","url":"/procity/find", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_wechatPayCashInInfo","name":"微信充值","roles":[],"seq":19,"type":"功能","url":"/user/wechatPayCashInInfo", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userpushsync","name":"同步系统推送","roles":[],"seq":20,"type":"功能","url":"/UserPush/sync", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userpushnoread","name":"查看所有未读的系统推送再推送","roles":[],"seq":21,"type":"功能","url":"/UserPush/noread", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userpushlist","name":"查看所有系统推送","roles":[],"seq":22,"type":"功能","url":"/UserPush/list", "resourceId":"xtgn_yhgl"},
+{"id":"appgn_userpushread","name":"推送已读","roles":[],"seq":23,"type":"功能","url":"/UserPush/read", "resourceId":"xtgn_yhgl"},
+
+
+{"id":"xtgn_zygl","name":"资源管理","roles":[],"seq":2,"type":"菜单","url":"/resource/manager", "resourceId":"xtgn"},
+
+
+{"id":"xtgn_bqgl","name":"标签管理","roles":[],"seq":3,"type":"菜单","url":"/tag/tags", "resourceId":"xtgn"},
+{"id":"xtgn_bqgl_tagtable","name":"标签列表","roles":[],"seq":1,"type":"功能","url":"/tag/table", "resourceId":"xtgn_bqgl"},
+{"id":"xtgn_bqgl_tagaddPage","name":"标签添加页面","roles":[],"seq":2,"type":"功能","url":"/tag/addPage", "resourceId":"xtgn_bqgl"},
+{"id":"xtgn_bqgl_tagadd","name":"标签添加","roles":[],"seq":3,"type":"功能","url":"/tag/add", "resourceId":"xtgn_bqgl"},
+{"id":"xtgn_bqgl_tagget","name":"标签根据id获取","roles":[],"seq":4,"type":"功能","url":"/tag/get", "resourceId":"xtgn_bqgl"},
+{"id":"xtgn_bqgl_tageditPage","name":"标签修改页面","roles":[],"seq":5,"type":"功能","url":"/tag/editPage", "resourceId":"xtgn_bqgl"},
+{"id":"xtgn_bqgl_tagedit","name":"标签修改","roles":[],"seq":6,"type":"功能","url":"/tag/edit", "resourceId":"xtgn_bqgl"},
+{"id":"xtgn_bqgl_tagdelete","name":"标签删除","roles":[],"seq":7,"type":"功能","url":"/tag/delete", "resourceId":"xtgn_bqgl"},
+{"id":"app_taglist","name":"App标签","roles":[],"seq":8,"type":"功能","url":"/tag/list", "resourceId":"xtgn_bqgl"},
+
+
+{"id":"xtgn_clppgl","name":"车辆品牌","roles":[],"seq":4,"type":"菜单","url":"/carbrand/carbrand", "resourceId":"xtgn"},
+{"id":"xtgn_clppgl_carbrandtable","name":"车辆品牌列表","roles":[],"seq":1,"type":"功能","url":"/carbrand/table", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_carbrandaddPage","name":"车辆品牌添加页面","roles":[],"seq":2,"type":"功能","url":"/carbrand/addPage", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_carbrandadd","name":"车辆品牌添加","roles":[],"seq":3,"type":"功能","url":"/carbrand/add", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_carbrandget","name":"车辆品牌根据id获取","roles":[],"seq":4,"type":"功能","url":"/carbrand/get", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_carbrandeditPage","name":"车辆品牌修改页面","roles":[],"seq":5,"type":"功能","url":"/carbrand/editPage", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_carbrandedit","name":"车辆品牌修改","roles":[],"seq":6,"type":"功能","url":"/carbrand/edit", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_carbranddelete","name":"车辆品牌删除","roles":[],"seq":7,"type":"功能","url":"/carbrand/delete", "resourceId":"xtgn_clppgl"},
+{"id":"appgn_carbrandlist","name":"App车辆品牌","roles":[],"seq":8,"type":"功能","url":"/carbrand/list", "resourceId":"xtgn_clppgl"},
+{"id":"xtgn_clppgl_listByInitial","name":"车辆品牌根据首字母获取","roles":[],"seq":9,"type":"功能","url":"/carbrand/listByInitial", "resourceId":"xtgn_clppgl"},
+
+
+{"id":"xtgn_clcxgl","name":"车辆车系","roles":[],"seq":5,"type":"菜单","url":"/carsystem/carsystem", "resourceId":"xtgn"},
+{"id":"xtgn_clcxgl_carsystemtable","name":"车辆车系列表","roles":[],"seq":1,"type":"功能","url":"/carsystem/table", "resourceId":"xtgn_clcxgl"},
+{"id":"xtgn_clcxgl_carsystemaddPage","name":"车辆车系添加页面","roles":[],"seq":2,"type":"功能","url":"/carsystem/addPage", "resourceId":"xtgn_clcxgl"},
+{"id":"xtgn_clcxgl_carsystemadd","name":"车辆车系添加","roles":[],"seq":3,"type":"功能","url":"/carsystem/add", "resourceId":"xtgn_clcxgl"},
+{"id":"xtgn_clcxgl_carsystemget","name":"车辆车系根据id获取","roles":[],"seq":4,"type":"功能","url":"/carsystem/get", "resourceId":"xtgn_clcxgl"},
+{"id":"xtgn_clcxgl_carsystemeditPage","name":"车辆车系修改页面","roles":[],"seq":5,"type":"功能","url":"/carsystem/editPage", "resourceId":"xtgn_clcxgl"},
+{"id":"xtgn_clcxgl_carsystemedit","name":"车辆车系修改","roles":[],"seq":6,"type":"功能","url":"/carsystem/edit", "resourceId":"xtgn_clcxgl"},
+{"id":"xtgn_clcxgl_carsystemdelete","name":"车辆车系删除","roles":[],"seq":7,"type":"功能","url":"/carsystem/delete", "resourceId":"xtgn_clcxgl"},
+{"id":"appgn_carsystemlistByBrandId","name":"App车辆车系","roles":[],"seq":8,"type":"功能","url":"/carsystem/listByBrandId", "resourceId":"xtgn_clcxgl"},
+
+
+{"id":"xtgn_clndkgl","name":"车年代款","roles":[],"seq":6,"type":"菜单","url":"/caryear/caryear", "resourceId":"xtgn"},
+{"id":"xtgn_clndkgl_caryeartable","name":"车年代款列表","roles":[],"seq":1,"type":"功能","url":"/caryear/table", "resourceId":"xtgn_clndkgl"},
+{"id":"xtgn_clndkgl_caryearaddPage","name":"车年代款添加页面","roles":[],"seq":2,"type":"功能","url":"/caryear/addPage", "resourceId":"xtgn_clndkgl"},
+{"id":"xtgn_clndkgl_caryearadd","name":"车年代款添加","roles":[],"seq":3,"type":"功能","url":"/caryear/add", "resourceId":"xtgn_clndkgl"},
+{"id":"xtgn_clndkgl_caryearget","name":"车年代款根据id获取","roles":[],"seq":4,"type":"功能","url":"/caryear/get", "resourceId":"xtgn_clndkgl"},
+{"id":"xtgn_clndkgl_caryeareditPage","name":"车年代款修改页面","roles":[],"seq":5,"type":"功能","url":"/caryear/editPage", "resourceId":"xtgn_clndkgl"},
+{"id":"xtgn_clndkgl_caryearedit","name":"车年代款修改","roles":[],"seq":6,"type":"功能","url":"/caryear/edit", "resourceId":"xtgn_clndkgl"},
+{"id":"xtgn_clndkgl_caryeardelete","name":"车年代款删除","roles":[],"seq":7,"type":"功能","url":"/caryear/delete", "resourceId":"xtgn_clndkgl"},
+{"id":"appgn_caryearlistBySystemId","name":"App车年代款","roles":[],"seq":8,"type":"功能","url":"/caryear/listBySystemId", "resourceId":"xtgn_clndkgl"},
+
+
+{"id":"xtgn_clplgl","name":"车辆排量","roles":[],"seq":7,"type":"菜单","url":"/cardisplacement/cardisplacement", "resourceId":"xtgn"},
+{"id":"xtgn_clplgl_cardisplacementtable","name":"车辆排量列表","roles":[],"seq":1,"type":"功能","url":"/cardisplacement/table", "resourceId":"xtgn_clplgl"},
+{"id":"xtgn_clplgl_cardisplacementaddPage","name":"车辆排量添加页面","roles":[],"seq":2,"type":"功能","url":"/cardisplacement/addPage", "resourceId":"xtgn_clplgl"},
+{"id":"xtgn_clplgl_cardisplacementadd","name":"车辆排量添加","roles":[],"seq":3,"type":"功能","url":"/cardisplacement/add", "resourceId":"xtgn_clplgl"},
+{"id":"xtgn_clplgl_cardisplacementget","name":"车辆排量根据id获取","roles":[],"seq":4,"type":"功能","url":"/cardisplacement/get", "resourceId":"xtgn_clplgl"},
+{"id":"xtgn_clplgl_cardisplacementeditPage","name":"车辆排量修改页面","roles":[],"seq":5,"type":"功能","url":"/cardisplacement/editPage", "resourceId":"xtgn_clplgl"},
+{"id":"xtgn_clplgl_cardisplacementedit","name":"车辆排量修改","roles":[],"seq":6,"type":"功能","url":"/cardisplacement/edit", "resourceId":"xtgn_clplgl"},
+{"id":"xtgn_clplgl_cardisplacementdelete","name":"车辆排量删除","roles":[],"seq":7,"type":"功能","url":"/cardisplacement/delete", "resourceId":"xtgn_clplgl"},
+{"id":"appgn_cardisplacementlistByYearId","name":"App车辆排量","roles":[],"seq":8,"type":"功能","url":"/cardisplacement/listByYearId", "resourceId":"xtgn_clplgl"},
+
+
+{"id":"xtgn_clxxgl","name":"车辆信息","roles":[],"seq":8,"type":"菜单","url":"/carinfo/carinfo", "resourceId":"xtgn"},
+{"id":"xtgn_clxxgl_carinfotable","name":"车辆信息列表","roles":[],"seq":1,"type":"功能","url":"/carinfo/table", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfoaddPage","name":"车辆信息添加页面","roles":[],"seq":2,"type":"功能","url":"/carinfo/addPage", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfoadd","name":"车辆信息添加","roles":[],"seq":3,"type":"功能","url":"/carinfo/add", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfoget","name":"车辆信息根据id获取","roles":[],"seq":4,"type":"功能","url":"/carinfo/get", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfoeditPage","name":"车辆信息修改页面","roles":[],"seq":5,"type":"功能","url":"/carinfo/editPage", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfoedit","name":"车辆信息修改","roles":[],"seq":6,"type":"功能","url":"/carinfo/edit", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfodelete","name":"车辆信息删除","roles":[],"seq":7,"type":"功能","url":"/carinfo/delete", "resourceId":"xtgn_clxxgl"},
+{"id":"xtgn_clxxgl_carinfoupdatefuel","name":"车辆信息更新工信部油量或座位数","roles":[],"seq":8,"type":"功能","url":"/carinfo/updatefuel", "resourceId":"xtgn_clxxgl"},
+{"id":"appgn_carinfogetByDisplacementId","name":"App车辆信息","roles":[],"seq":9,"type":"功能","url":"/carinfo/getByDisplacementId", "resourceId":"xtgn_clxxgl"},
+{"id":"appgn_carinfoamount","name":"App车辆计算价格","roles":[],"seq":10,"type":"功能","url":"/carinfo/amount", "resourceId":"xtgn_clxxgl"},
+
+
+{"id":"xtgn_czrz","name":"车主认证","roles":[],"seq":9,"type":"菜单","url":"/ownerapprove/ownerapprove", "resourceId":"xtgn"},
+{"id":"xtgn_czrz_ownerapprovetable","name":"车主认证列表","roles":[],"seq":1,"type":"功能","url":"/ownerapprove/table", "resourceId":"xtgn_czrz"},
+{"id":"xtgn_czrz_ownerapprovesucc","name":"车主认证审核通过","roles":[],"seq":2,"type":"功能","url":"/ownerapprove/ownerapprovesucc", "resourceId":"xtgn_czrz"},
+{"id":"appgn_hasOwnerApprove","name":"是否通过车主认证","roles":[],"seq":3,"type":"功能","url":"/ownerapprove/hasOwnerApprove", "resourceId":"xtgn_czrz"},
+{"id":"appgn_ownerToApprove","name":"车主进行认证","roles":[],"seq":4,"type":"功能","url":"/ownerapprove/ownerToApprove", "resourceId":"xtgn_czrz"},
+
+
+{"id":"xtgn_tsgl","name":"提示管理","roles":[],"seq":10,"type":"菜单","url":"/tip/tip", "resourceId":"xtgn"},
+{"id":"xtgn_tsgl_tiptable","name":"提示列表","roles":[],"seq":1,"type":"功能","url":"/tip/table", "resourceId":"xtgn_tsgl"},
+{"id":"xtgn_tsgl_tipaddPage","name":"提示添加页面","roles":[],"seq":2,"type":"功能","url":"/tip/addPage", "resourceId":"xtgn_tsgl"},
+{"id":"xtgn_tsgl_tipadd","name":"提示添加","roles":[],"seq":3,"type":"功能","url":"/tip/add", "resourceId":"xtgn_tsgl"},
+{"id":"xtgn_tsgl_tipget","name":"提示根据id获取","roles":[],"seq":4,"type":"功能","url":"/tip/get", "resourceId":"xtgn_tsgl"},
+{"id":"xtgn_tsgl_tipeditPage","name":"提示修改页面","roles":[],"seq":5,"type":"功能","url":"/tip/editPage", "resourceId":"xtgn_tsgl"},
+{"id":"xtgn_tsgl_tipedit","name":"提示修改","roles":[],"seq":6,"type":"功能","url":"/tip/edit", "resourceId":"xtgn_tsgl"},
+{"id":"xtgn_tsgl_tipdelete","name":"提示删除","roles":[],"seq":7,"type":"功能","url":"/tip/delete", "resourceId":"xtgn_tsgl"},
+{"id":"fileentity_upload","name":"图片上传","roles":[],"seq":8,"type":"功能","url":"/fileentity/upload", "resourceId":"xtgn_tsgl"},
+
+
+{"id":"xtgn_gggl","name":"广告管理","roles":[],"seq":11,"type":"菜单","url":"/advertise/advertise", "resourceId":"xtgn"},
+{"id":"xtgn_gggl_advertisetable","name":"广告列表","roles":[],"seq":1,"type":"功能","url":"/advertise/table", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_advertiseaddPage","name":"广告添加页面","roles":[],"seq":2,"type":"功能","url":"/advertise/addPage", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_advertiseadd","name":"广告添加","roles":[],"seq":3,"type":"功能","url":"/advertise/add", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_advertiseget","name":"广告根据id获取","roles":[],"seq":4,"type":"功能","url":"/advertise/get", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_advertiseeditPage","name":"广告修改页面","roles":[],"seq":5,"type":"功能","url":"/advertise/editPage", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_advertiseedit","name":"广告修改","roles":[],"seq":6,"type":"功能","url":"/advertise/edit", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_advertisedelete","name":"广告删除","roles":[],"seq":7,"type":"功能","url":"/advertise/delete", "resourceId":"xtgn_gggl"},
+{"id":"xtgn_gggl_getInfoByUrl","name":"根据url获取图片详细信息","roles":[],"seq":8,"type":"功能","url":"/fileentity/getInfoByUrl", "resourceId":"xtgn_gggl"},
+
+
+{"id":"xtgn_czcd","name":"车主车单","roles":[],"seq":12,"type":"菜单","url":"/ownerorder/publish", "resourceId":"xtgn"},
+{"id":"xtgn_czcd_publish","name":"车主发布","roles":[],"seq":1,"type":"功能","url":"/ownerorder/publish", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_passengerReserve","name":"乘客下单","roles":[],"seq":2,"type":"功能","url":"/ownerorder/passengerReserve", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_approvePassenger","name":"车主同意搭载乘客","roles":[],"seq":3,"type":"功能","url":"/ownerorder/approvePassenger", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_disapprovePassenger","name":"车主拒绝搭载乘客","roles":[],"seq":4,"type":"功能","url":"/ownerorder/disapprovePassenger", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_passengerList","name":"车主查看乘客列表","roles":[],"seq":5,"type":"功能","url":"/ownerorder/passengerList", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_receive","name":"车主出发去接乘客","roles":[],"seq":6,"type":"功能","url":"/ownerorder/receive", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_userReceive","name":"乘客上车(车主接到某个乘客)","roles":[],"seq":7,"type":"功能","url":"/ownerorder/userReceive", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_depart","name":"车主出发去送乘客","roles":[],"seq":8,"type":"功能","url":"/ownerorder/depart", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_userFinish","name":"乘客下车(某个乘客下车)","roles":[],"seq":9,"type":"功能","url":"/ownerorder/userFinish", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_userRated","name":"乘客评价车主","roles":[],"seq":10,"type":"功能","url":"/ownerorder/userRated", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_finish","name":"车主完成","roles":[],"seq":11,"type":"功能","url":"/ownerorder/finish", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_ownerOrderlist","name":"乘客查询车主车单列表","roles":[],"seq":12,"type":"功能","url":"/ownerorder/ownerOrderlist", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_ownerfindPassInfo","name":"车主查看乘客信息","roles":[],"seq":13,"type":"功能","url":"/ownerorder/ownerfindPassInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_passfindOwnerInfo","name":"乘客查看车主信息","roles":[],"seq":14,"type":"功能","url":"/ownerorder/passfindOwnerInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_running","name":"车主正在进行中车单","roles":[],"seq":15,"type":"功能","url":"/ownerorder/running", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_ownerRated","name":"车主评价乘客","roles":[],"seq":16,"type":"功能","url":"/ownerorder/ownerRated", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_getOwnerOrderByUserId","name":"根据用户id返回publish的车主车单","roles":[],"seq":17,"type":"功能","url":"/ownerorder/getOwnerOrderByUserId", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_alipayPassengerOrderInfo","name":"支付宝乘客支付车主车单","roles":[],"seq":18,"type":"功能","url":"/ownerorder/alipayPassengerOrderInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_hasRunningOrder","name":"是否有正在进行中车单","roles":[],"seq":19,"type":"功能","url":"/ownerorder/hasRunningOrder", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_ownerStrokeRecord","name":"用户的车主行程记录","roles":[],"seq":20,"type":"功能","url":"/ownerorder/ownerStrokeRecord", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_alipayHonestyOrderInfo","name":"支付宝车主支付诚信必发","roles":[],"seq":21,"type":"功能","url":"/ownerorder/alipayHonestyOrderInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_wechatPayHonestyOrderInfo","name":"微信车主支付诚信必发","roles":[],"seq":22,"type":"功能","url":"/ownerorder/wechatPayHonestyOrderInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_wechatPayPassengerOrder","name":"微信乘客支付车主车单","roles":[],"seq":23,"type":"功能","url":"/ownerorder/wechatPayPassengerOrderInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_ownerOrderInfo","name":"乘客查询车主车单详情","roles":[],"seq":24,"type":"功能","url":"/ownerorder/ownerOrderInfo", "resourceId":"xtgn_czcd"},
+{"id":"xtgn_czcd_recommendOwner","name":"给乘客推荐的车主车单列表","roles":[],"seq":25,"type":"功能","url":"/ownerorder/recommendOwner", "resourceId":"xtgn_czcd"},
+
+
+{"id":"xtgn_ckcd","name":"乘客车单","roles":[],"seq":13,"type":"菜单","url":"/passengerorder/publish", "resourceId":"xtgn"},
+{"id":"xtgn_ckcd_publish","name":"乘客发布","roles":[],"seq":1,"type":"功能","url":"/passengerorder/publish", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_receive","name":"车主抢单","roles":[],"seq":2,"type":"功能","url":"/passengerorder/receive", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_approve","name":"乘客同意","roles":[],"seq":3,"type":"功能","url":"/passengerorder/approve", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_show","name":"乘客查询当前车单","roles":[],"seq":4,"type":"功能","url":"/passengerorder/show", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_passOrderInfo","name":"车主查看乘客车单","roles":[],"seq":5,"type":"功能","url":"/passengerorder/passOrderInfo", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_passOrderlist","name":"车主查询乘客车单列表","roles":[],"seq":6,"type":"功能","url":"/passengerorder/passOrderlist", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_passStrokeRecord","name":"用户的乘客行程记录","roles":[],"seq":7,"type":"功能","url":"/passengerorder/passStrokeRecord", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_alipayPassengerOrderInfo","name":"支付宝乘客支付乘客车单","roles":[],"seq":8,"type":"功能","url":"/passengerorder/alipayPassengerOrderInfo", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_wechatPayPassengerOrder","name":"微信乘客支付乘客车单","roles":[],"seq":9,"type":"功能","url":"/passengerorder/wechatPayPassengerOrderInfo", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_passfindOwner","name":"乘客主动预定车主车单","roles":[],"seq":10,"type":"功能","url":"/passengerorder/passfindOwner", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_recommendPass","name":"给车主推荐的乘客车单列表","roles":[],"seq":11,"type":"功能","url":"/passengerorder/recommendPass", "resourceId":"xtgn_ckcd"},
+{"id":"xtgn_ckcd_getPassOrderByUserId","name":"根据用户id返回publish的乘客车单","roles":[],"seq":12,"type":"功能","url":"/passengerorder/getPassOrderByUserId", "resourceId":"xtgn_ckcd"},
+
+
+{"id":"xtgn_fkgl","name":"反馈管理","roles":[],"seq":14,"type":"菜单","url":"/feedback/feedback", "resourceId":"xtgn"},
+{"id":"xtgn_fkgl_feedbacktable","name":"反馈列表","roles":[],"seq":1,"type":"功能","url":"/feedback/table", "resourceId":"xtgn_fkgl"},
+{"id":"xtgn_fkgl_feedbackget","name":"反馈根据id获取","roles":[],"seq":2,"type":"功能","url":"/feedback/get", "resourceId":"xtgn_fkgl"},
+{"id":"xtgn_fkgl_feedbackeditPage","name":"反馈修改页面","roles":[],"seq":3,"type":"功能","url":"/feedback/editPage", "resourceId":"xtgn_fkgl"},
+{"id":"appgn_fkgl_feedbackadd","name":"反馈添加","roles":[],"seq":4,"type":"功能","url":"/feedback/add", "resourceId":"xtgn_fkgl"},
+
+
+{"id":"xtgn_txgl","name":"提现管理","roles":[],"seq":15,"type":"菜单","url":"/user/cashout", "resourceId":"xtgn"},
+{"id":"xtgn_txgl_cashouttable","name":"提现列表","roles":[],"seq":1,"type":"功能","url":"/user/cashouttable", "resourceId":"xtgn_txgl"},
+{"id":"xtgn_txgl_cashOutSucc","name":"提现成功","roles":[],"seq":2,"type":"功能","url":"/user/cashOutSucc", "resourceId":"xtgn_txgl"},
+
+
+{"id":"xtgn_yfglf","name":"油费过路费","roles":[],"seq":16,"type":"菜单","url":"/carconfig/carconfig", "resourceId":"xtgn"},
+{"id":"xtgn_yfglf_add","name":"油费过路费添加","roles":[],"seq":1,"type":"功能","url":"/carconfig/add", "resourceId":"xtgn_yfglf"},
+
+
+{"id":"xtgn_cdcz","name":"车主车单","roles":[],"seq":17,"type":"菜单","url":"/OrderOwner/listAll", "resourceId":"xtgn"},
+{"id":"xtgn_cdcz_listAll","name":"车主行程记录","roles":[],"seq":1,"type":"功能","url":"/OrderOwner/listAll", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_listByFromLocation","name":"首页查看附近车主","roles":[],"seq":2,"type":"功能","url":"/OrderOwner/listByFromLocation", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_listByPublish","name":"未出行车主车单","roles":[],"seq":3,"type":"功能","url":"/OrderOwner/listByPublish", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_listByRunning","name":"进行中车主车单","roles":[],"seq":4,"type":"功能","url":"/OrderOwner/listByRunning", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_listByLocation","name":"根据开始和结束位置查看推荐车主车单","roles":[],"seq":5,"type":"功能","url":"/OrderOwner/listByLocation", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_detail","name":"车主车单详情","roles":[],"seq":6,"type":"功能","url":"/OrderOwner/detail", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_userinfo","name":"车主信息","roles":[],"seq":7,"type":"功能","url":"/OrderOwner/userinfo", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_publish","name":"车主发布车单","roles":[],"seq":8,"type":"功能","url":"/OrderOwner/publish", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_honestyAliPayPreOrder","name":"支付宝车主支付诚信必发","roles":[],"seq":9,"type":"功能","url":"/OrderOwner/honestyAliPayPreOrder", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_honestyWechatPayPreOrder","name":"微信车主支付诚信必发","roles":[],"seq":10,"type":"功能","url":"/OrderOwner/honestyWechatPayPreOrder", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_approvePassenger","name":"车主同意搭载乘客","roles":[],"seq":11,"type":"功能","url":"/OrderOwner/approvePassenger", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_invitationPassenger","name":"车主邀请乘客搭载","roles":[],"seq":12,"type":"功能","url":"/OrderOwner/invitationPassenger", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_disapprovePassenger","name":"车主拒绝搭载乘客","roles":[],"seq":13,"type":"功能","url":"/OrderOwner/disapprovePassenger", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_passengerList","name":"车主查看乘客列表","roles":[],"seq":14,"type":"功能","url":"/OrderOwner/passengerList", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_receive","name":"开始接乘客","roles":[],"seq":15,"type":"功能","url":"/OrderOwner/receive", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_depart","name":"出发送乘客","roles":[],"seq":16,"type":"功能","url":"/OrderOwner/depart", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_finish","name":"车主车单完成","roles":[],"seq":17,"type":"功能","url":"/OrderOwner/finish", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_evaluate","name":"车主评价乘客","roles":[],"seq":18,"type":"功能","url":"/OrderOwner/evaluate", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_close","name":"车主关闭","roles":[],"seq":19,"type":"功能","url":"/OrderOwner/close", "resourceId":"xtgn_cdcz"},
+{"id":"xtgn_cdcz_warn","name":"车主提醒乘客支付","roles":[],"seq":20,"type":"功能","url":"/OrderOwner/warn", "resourceId":"xtgn_cdcz"},
+
+
+{"id":"xtgn_cdck","name":"乘客车单","roles":[],"seq":18,"type":"菜单","url":"/OrderPassenger/listAll", "resourceId":"xtgn"},
+{"id":"xtgn_cdck_listAll","name":"乘客行程记录","roles":[],"seq":1,"type":"功能","url":"/OrderPassenger/listAll", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_listByPublish","name":"未出行乘客车单","roles":[],"seq":2,"type":"功能","url":"/OrderPassenger/listByPublish", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_listByFromLocation","name":"首页查看附近乘客","roles":[],"seq":3,"type":"功能","url":"/OrderPassenger/listByFromLocation", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_listByLocation","name":"根据开始和结束位置查看推荐乘客车单","roles":[],"seq":4,"type":"功能","url":"/OrderPassenger/listByLocation", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_listByRunning","name":"进行中乘客车单","roles":[],"seq":5,"type":"功能","url":"/OrderPassenger/listByRunning", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_receive","name":"乘客上车","roles":[],"seq":6,"type":"功能","url":"/OrderPassenger/receive", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_finish","name":"乘客下车","roles":[],"seq":7,"type":"功能","url":"/OrderPassenger/finish", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_evaluate","name":"乘客评价车主","roles":[],"seq":8,"type":"功能","url":"/OrderPassenger/evaluate", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_orderPasAliPayPreOrder","name":"支付宝乘客支付","roles":[],"seq":9,"type":"功能","url":"/OrderPassenger/orderPassengerAliPayPreOrder", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_orderPasWechatPayPreOrder","name":"微信乘客支付","roles":[],"seq":10,"type":"功能","url":"/OrderPassenger/orderPassengerWechatPayPreOrder", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_reserve","name":"乘客预定","roles":[],"seq":11,"type":"功能","url":"/OrderPassenger/reserve", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_detail","name":"乘客车单详情","roles":[],"seq":12,"type":"功能","url":"/OrderPassenger/detail", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_userinfo","name":"乘客信息","roles":[],"seq":13,"type":"功能","url":"/OrderPassenger/userinfo", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_publish","name":"乘客发布车单","roles":[],"seq":14,"type":"功能","url":"/OrderPassenger/publish", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_approveOwner","name":"乘客同意乘坐某个车主车单","roles":[],"seq":15,"type":"功能","url":"/OrderPassenger/approveOwner", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_ownerList","name":"乘客查看车主抢单和同意车主","roles":[],"seq":16,"type":"功能","url":"/OrderPassenger/ownerList", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_show","name":"乘客查看自己车单","roles":[],"seq":17,"type":"功能","url":"/OrderPassenger/show", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_close","name":"乘客关闭","roles":[],"seq":18,"type":"功能","url":"/OrderPassenger/close", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_passPayMoney","name":"计算乘客需支付车费","roles":[],"seq":19,"type":"功能","url":"/OrderPassenger/passPayMoney", "resourceId":"xtgn_cdck"},
+{"id":"xtgn_cdck_warn","name":"乘客提醒车主出发","roles":[],"seq":20,"type":"功能","url":"/OrderPassenger/warn", "resourceId":"xtgn_cdck"},
+
+
+{"id":"xtgn_qmdl","name":"全民代理","roles":[],"seq":19,"type":"菜单","url":"/universalagent/statistics", "resourceId":"xtgn"},
+{"id":"xtgn_qmdl_statistics","name":"统计代理推荐人数发车数量总收益","roles":[],"seq":1,"type":"功能","url":"/universalagent/statistics", "resourceId":"xtgn_qmdl"},
+{"id":"xtgn_qmdl_today","name":"统计代理今天收益","roles":[],"seq":2,"type":"功能","url":"/universalagent/today", "resourceId":"xtgn_qmdl"},
+{"id":"xtgn_qmdl_detail","name":"代理查看收益列表","roles":[],"seq":3,"type":"功能","url":"/universalagent/detail", "resourceId":"xtgn_qmdl"},
+{"id":"xtgn_qmdl_genurl","name":"代理获取url","roles":[],"seq":4,"type":"功能","url":"/universalagent/genurl", "resourceId":"xtgn_qmdl"},
+
+
+{"id":"xtgn_zdtj","name":"账单统计","roles":[],"seq":20,"type":"菜单","url":"/journal/tongji", "resourceId":"xtgn"},
+{"id":"xtgn_zdtj_table","name":"账单统计列表","roles":[],"seq":1,"type":"功能","url":"/journal/table", "resourceId":"xtgn_zdtj"},
+{"id":"xtgn_zdtj_downloadAliJournal","name":"下载支付宝账单","roles":[],"seq":2,"type":"功能","url":"/journal/downloadAliJournal", "resourceId":"xtgn_zdtj"},
+{"id":"xtgn_zdtj_downloadWechatJournal","name":"下载微信账单","roles":[],"seq":3,"type":"功能","url":"/journal/downloadWechatJournal", "resourceId":"xtgn_zdtj"},
+
+
+{"id":"xtgn_tsdgl","name":"推送管理","roles":[],"seq":21,"type":"菜单","url":"/pushentity/pushentity", "resourceId":"xtgn"},
+{"id":"xtgn_tsdgl_table","name":"查看推送列表","roles":[],"seq":1,"type":"功能","url":"/pushentity/table", "resourceId":"xtgn_tsdgl"},
+{"id":"xtgn_tsdgl_addPage","name":"添加推送页面","roles":[],"seq":2,"type":"功能","url":"/pushentity/addPage", "resourceId":"xtgn_tsdgl"},
+{"id":"xtgn_tsdgl_add","name":"添加推送","roles":[],"seq":3,"type":"功能","url":"/pushentity/add", "resourceId":"xtgn_tsdgl"},
+{"id":"xtgn_tsdgl_editPage","name":"修改推送页面","roles":[],"seq":4,"type":"功能","url":"/pushentity/editPage", "resourceId":"xtgn_tsdgl"},
+{"id":"xtgn_tsdgl_edit","name":"修改推送","roles":[],"seq":5,"type":"功能","url":"/pushentity/edit", "resourceId":"xtgn_tsdgl"},
+{"id":"xtgn_tsdgl_delete","name":"删除推送","roles":[],"seq":6,"type":"功能","url":"/pushentity/delete", "resourceId":"xtgn_tsdgl"},
+{"id":"xtgn_tsdgl_get","name":"获取某个推送","roles":[],"seq":7,"type":"功能","url":"/pushentity/get", "resourceId":"xtgn_tsdgl"},
+
+
+{"id":"dlspt","name":"代理商平台","roles":[],"seq":2,"type":"菜单","url":"/user/index"},
+
+
+{"id":"dlspt_tjdls","name":"添加代理商","roles":[],"seq":1,"type":"菜单","url":"/agent/agent", "resourceId":"dlspt"},
+{"id":"dlspt_tjdls_agentinfo","name":"根据手机号查询用户","roles":[],"seq":1,"type":"功能","url":"/agent/info", "resourceId":"dlspt_tjdls"},
+{"id":"dlspt_tjdls_agentbind","name":"用户绑定代理区域","roles":[],"seq":2,"type":"功能","url":"/agent/bind", "resourceId":"dlspt_tjdls"},
+{"id":"dlspt_tjdls_agentunbind","name":"用户解绑代理区域","roles":[],"seq":3,"type":"功能","url":"/agent/unbind", "resourceId":"dlspt_tjdls"},
+{"id":"dlspt_tjdls_agentbingUser","name":"根据区域id查询代理的用户","roles":[],"seq":4,"type":"功能","url":"/agent/bingUser", "resourceId":"dlspt_tjdls"},
+
+
+{"id":"dlspt_dlstj","name":"代理商统计","roles":[],"seq":2,"type":"菜单","url":"/agent/count", "resourceId":"dlspt"},
+{"id":"dlspt_dlstj_statisticsOrder","name":"统计车单数量","roles":[],"seq":1,"type":"功能","url":"/agent/statisticsOrder", "resourceId":"dlspt_dlstj"},
+{"id":"dlspt_dlstj_statisticsOrderMoney","name":"统计车单金额","roles":[],"seq":2,"type":"功能","url":"/agent/statisticsOrderMoney", "resourceId":"dlspt_dlstj"},
+{"id":"dlspt_dlstj_statisticsUserRegist","name":"统计用户注册量","roles":[],"seq":3,"type":"功能","url":"/agent/statisticsUserRegist", "resourceId":"dlspt_dlstj"},
+
+
+
+{}
+]

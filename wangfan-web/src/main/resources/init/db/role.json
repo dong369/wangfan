@@ -1,0 +1,727 @@
+[
+	{
+		"id": "admin",
+		"name": "管理员",
+		"resources": [
+			{
+				"id": "xtgn"
+			},
+			{
+				"id": "xtgn_yhgl"
+			},
+			{
+				"id": "xtgn_yhgl_usertable"
+			},
+			{
+				"id": "xtgn_yhgl_userable"
+			},
+			{
+				"id": "xtgn_yhgl_userenable"
+			},
+			{
+				"id": "xtgn_zygl"
+			},
+			{
+				"id": "xtgn_bqgl"
+			},
+			{
+				"id": "xtgn_bqgl_tagtable"
+			},
+			{
+				"id": "xtgn_bqgl_tagaddPage"
+			},
+			{
+				"id": "xtgn_bqgl_tagadd"
+			},
+			{
+				"id": "xtgn_bqgl_tagget"
+			},
+			{
+				"id": "xtgn_bqgl_tageditPage"
+			},
+			{
+				"id": "xtgn_bqgl_tagedit"
+			},
+			{
+				"id": "xtgn_bqgl_tagdelete"
+			},
+			{				
+				"id": "xtgn_clppgl"
+			},						
+			{				
+				"id": "xtgn_clppgl_carbrandtable"
+			},
+			{				
+				"id": "xtgn_clppgl_carbrandaddPage"
+			},
+			{				
+				"id": "xtgn_clppgl_carbrandadd"
+			},
+			{				
+				"id": "xtgn_clppgl_carbrandget"
+			},
+			{				
+				"id": "xtgn_clppgl_carbrandeditPage"
+			},
+			{				
+				"id": "xtgn_clppgl_carbrandedit"
+			},
+			{				
+				"id": "xtgn_clppgl_carbranddelete"
+			},
+			{				
+				"id": "xtgn_clcxgl"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemtable"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemaddPage"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemadd"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemget"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemeditPage"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemedit"
+			},
+			{				
+				"id": "xtgn_clcxgl_carsystemdelete"
+			},
+			{				
+				"id": "xtgn_clndkgl"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryeartable"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryearaddPage"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryearadd"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryearget"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryeareditPage"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryearedit"
+			},
+			{				
+				"id": "xtgn_clndkgl_caryeardelete"
+			},			
+			{				
+				"id": "xtgn_clplgl"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementtable"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementaddPage"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementadd"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementget"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementeditPage"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementedit"
+			},
+			{				
+				"id": "xtgn_clplgl_cardisplacementdelete"
+			},
+			{				
+				"id": "xtgn_clxxgl"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfotable"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfoaddPage"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfoadd"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfoget"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfoeditPage"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfoedit"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfodelete"
+			},
+			{				
+				"id": "xtgn_clxxgl_carinfoupdatefuel"
+			},
+			{
+				"id": "xtgn_tsgl"
+			},
+			{
+				"id": "xtgn_tsgl_tiptable"
+			},
+			{
+				"id": "xtgn_tsgl_tipaddPage"
+			},
+			{
+				"id": "xtgn_tsgl_tipadd"
+			},
+			{
+				"id": "xtgn_tsgl_tipget"
+			},
+			{
+				"id": "xtgn_tsgl_tipeditPage"
+			},
+			{
+				"id": "xtgn_tsgl_tipedit"
+			},
+			{
+				"id": "xtgn_tsgl_tipdelete"
+			},			
+			{
+				"id": "appgn_carbrandlist"
+			},
+			{				
+				"id": "appgn_carsystemlistByBrandId"
+			},
+			{				
+				"id": "appgn_caryearlistBySystemId"
+			},
+			{
+				"id": "appgn_cardisplacementlistByYearId"
+			},
+			{
+				"id": "appgn_carinfogetByDisplacementId"
+			},
+			{
+				"id": "fileentity_upload"
+			},
+			{
+				"id": "xtgn_gggl"
+			},
+			{
+				"id": "xtgn_gggl_advertisetable"
+			},
+			{
+				"id": "xtgn_gggl_advertiseaddPage"
+			},
+			{
+				"id": "xtgn_gggl_advertiseadd"
+			},
+			{
+				"id": "xtgn_gggl_advertiseget"
+			},
+			{
+				"id": "xtgn_gggl_advertiseeditPage"
+			},
+			{
+				"id": "xtgn_gggl_advertiseedit"
+			},
+			{
+				"id": "xtgn_gggl_advertisedelete"
+			},
+			{
+				"id": "xtgn_czrz"
+			},
+			{
+				"id": "xtgn_czrz_ownerapprovetable"
+			},
+			{
+				"id": "xtgn_czrz_ownerapprovesucc"
+			},
+			{
+				"id": "xtgn_usermenu"
+			},
+			{
+				"id": "xtgn_fkgl"
+			},
+			{
+				"id": "xtgn_fkgl_feedbacktable"
+			},
+			{
+				"id": "xtgn_fkgl_feedbackget"
+			},
+			{
+				"id": "xtgn_fkgl_feedbackeditPage"
+			},
+			{
+				"id": "xtgn_clppgl_listByInitial"
+			},
+			{
+				"id": "dlspt"
+			},
+			{
+				"id": "dlspt_tjdls"
+			},
+			{
+				"id": "dlspt_tjdls_agentinfo"
+			},
+			{
+				"id": "dlspt_tjdls_agentbind"
+			},
+			{
+				"id": "dlspt_tjdls_agentunbind"
+			},
+			{
+				"id": "dlspt_tjdls_agentbingUser"
+			},
+			{
+				"id": "xtgn_txgl"
+			},
+			{
+				"id": "xtgn_txgl_cashouttable"
+			},
+			{
+				"id": "xtgn_txgl_cashOutSucc"
+			},
+			{
+				"id": "xtgn_yfglf"
+			},
+			{
+				"id": "xtgn_yfglf_add"
+			},
+			{
+				"id": "xtgn_gggl_getInfoByUrl"
+			},
+			{
+				"id": "dlspt_dlstj"
+			},
+			{
+				"id": "dlspt_dlstj_statisticsOrder"
+			},
+			{
+				"id": "dlspt_dlstj_statisticsOrderMoney"
+			},
+			{
+				"id": "dlspt_dlstj_statisticsUserRegist"
+			},
+			{
+				"id": "xtgn_zdtj"
+			},
+			{
+				"id": "xtgn_zdtj_table"
+			},
+			{
+				"id": "xtgn_zdtj_downloadAliJournal"
+			},
+			{
+				"id": "xtgn_zdtj_downloadWechatJournal"
+			},
+			{
+				"id": "xtgn_tsdgl"
+			},
+			{
+				"id": "xtgn_tsdgl_table"
+			},
+			{
+				"id": "xtgn_tsdgl_addPage"
+			},
+			{
+				"id": "xtgn_tsdgl_add"
+			},
+			{
+				"id": "xtgn_tsdgl_editPage"
+			},
+			{
+				"id": "xtgn_tsdgl_edit"
+			},
+			{
+				"id": "xtgn_tsdgl_delete"
+			},
+			{
+				"id": "xtgn_tsdgl_get"
+			}
+		],
+		"seq": 1
+	},
+	{
+		"id": "app",
+		"name": "手机用户",
+		"resources": [						
+			{
+				"id": "appgn_userInfo"
+			},
+			{
+				"id": "appgn_userDetail"
+			},
+			{
+				"id": "appgn_editUser"
+			},
+			{
+				"id": "appgn_hasUserApprove"
+			},
+			{
+				"id": "appgn_userApprove"
+			},
+			{
+				"id": "appgn_addSos"
+			},
+			{
+				"id": "appgn_getSos"
+			},
+			{
+				"id": "app_taglist"				
+			},			
+			{
+				"id": "appgn_carbrandlist"
+			},
+			{				
+				"id": "appgn_carsystemlistByBrandId"
+			},
+			{				
+				"id": "appgn_caryearlistBySystemId"
+			},
+			{
+				"id": "appgn_cardisplacementlistByYearId"
+			},
+			{
+				"id": "appgn_carinfogetByDisplacementId"
+			},
+			{
+				"id": "fileentity_upload"
+			},
+			{
+				"id": "appgn_hasOwnerApprove"
+			},
+			{
+				"id": "appgn_ownerToApprove"
+			},
+			{
+				"id": "appgn_usergetCarByUserId"
+			},
+			{
+				"id": "xtgn_czcd"
+			},
+			{
+				"id": "xtgn_czcd_publish"
+			},
+			{
+				"id": "xtgn_czcd_passengerReserve"
+			},
+			{
+				"id": "xtgn_czcd_approvePassenger"
+			},
+			{
+				"id": "xtgn_czcd_disapprovePassenger"
+			},
+			{
+				"id": "xtgn_czcd_passengerList"
+			},
+			{
+				"id": "xtgn_czcd_receive"
+			},
+			{
+				"id": "xtgn_czcd_userReceive"
+			},
+			{
+				"id": "xtgn_czcd_depart"
+			},
+			{
+				"id": "xtgn_czcd_userFinish"
+			},
+			{
+				"id": "xtgn_czcd_userRated"
+			},
+			{
+				"id": "xtgn_czcd_finish"
+			},
+			{
+				"id": "xtgn_czcd_ownerOrderlist"
+			},
+			{
+				"id": "xtgn_czcd_ownerfindPassInfo"
+			},
+			{
+				"id": "xtgn_czcd_passfindOwnerInfo"
+			},
+			{
+				"id": "xtgn_czcd_running"
+			},
+			{
+				"id": "xtgn_czcd_ownerRated"
+			},
+			{
+				"id": "xtgn_czcd_getOwnerOrderByUserId"
+			},
+			{
+				"id": "xtgn_czcd_alipayPassengerOrderInfo"
+			},
+			{
+				"id": "xtgn_ckcd"
+			},
+			{
+				"id": "xtgn_ckcd_publish"
+			},
+			{
+				"id": "xtgn_ckcd_receive"
+			},
+			{
+				"id": "xtgn_ckcd_approve"
+			},
+			{
+				"id": "xtgn_ckcd_show"
+			},
+			{
+				"id": "appgn_fkgl_feedbackadd"
+			},
+			{
+				"id": "xtgn_czcd_hasRunningOrder"
+			},
+			{
+				"id": "xtgn_ckcd_passOrderInfo"
+			},
+			{
+				"id": "xtgn_ckcd_passOrderlist"
+			},
+			{
+				"id": "xtgn_czcd_ownerStrokeRecord"
+			},
+			{
+				"id": "xtgn_ckcd_passStrokeRecord"
+			},
+			{
+				"id": "xtgn_czcd_alipayHonestyOrderInfo"
+			},
+			{
+				"id": "xtgn_ckcd_alipayPassengerOrderInfo"
+			},
+			{
+				"id": "appgn_alipayCashInInfo"
+			},
+			{
+				"id": "appgn_cashOutInfo"
+			},
+			{
+				"id": "xtgn_czcd_wechatPayHonestyOrderInfo"
+			},
+			{
+				"id": "appgn_journallist"
+			},
+			{
+				"id": "appgn_procityfind"
+			},
+			{
+				"id": "xtgn_czcd_wechatPayPassengerOrder"
+			},
+			{
+				"id": "xtgn_ckcd_wechatPayPassengerOrder"
+			},
+			{
+				"id": "appgn_wechatPayCashInInfo"
+			},
+			{
+				"id": "xtgn_czcd_ownerOrderInfo"
+			},
+			{
+				"id": "appgn_carinfoamount"
+			},
+			{
+				"id": "xtgn_ckcd_passfindOwner"
+			},
+			{
+				"id": "xtgn_ckcd_recommendPass"
+			},
+			{
+				"id": "xtgn_czcd_recommendOwner"
+			},
+			{
+				"id": "xtgn_ckcd_getPassOrderByUserId"
+			},
+			{
+				"id": "xtgn_cdcz"
+			},
+			{
+				"id": "xtgn_cdcz_listAll"
+			},
+			{
+				"id": "xtgn_cdcz_listByFromLocation"
+			},
+			{
+				"id": "xtgn_cdcz_listByPublish"
+			},
+			{
+				"id": "xtgn_cdcz_listByRunning"
+			},
+			{
+				"id": "xtgn_cdcz_listByLocation"
+			},
+			{
+				"id": "xtgn_cdcz_detail"
+			},
+			{
+				"id": "xtgn_cdcz_userinfo"
+			},
+			{
+				"id": "xtgn_cdcz_publish"
+			},
+			{
+				"id": "xtgn_cdcz_honestyAliPayPreOrder"
+			},
+			{
+				"id": "xtgn_cdcz_honestyWechatPayPreOrder"
+			},							
+			{
+				"id": "xtgn_cdcz_approvePassenger"
+			},							
+			{
+				"id": "xtgn_cdcz_invitationPassenger"
+			},							
+			{
+				"id": "xtgn_cdcz_disapprovePassenger"
+			},							
+			{
+				"id": "xtgn_cdcz_passengerList"
+			},							
+			{
+				"id": "xtgn_cdcz_receive"
+			},							
+			{
+				"id": "xtgn_cdcz_depart"
+			},							
+			{
+				"id": "xtgn_cdcz_finish"
+			},							
+			{
+				"id": "xtgn_cdcz_evaluate"
+			},							
+			{
+				"id": "xtgn_cdcz_close"
+			},
+			{
+				"id": "xtgn_cdck"
+			},							
+			{
+				"id": "xtgn_cdck_listAll"
+			},							
+			{
+				"id": "xtgn_cdck_listByPublish"
+			},							
+			{
+				"id": "xtgn_cdck_listByFromLocation"
+			},							
+			{
+				"id": "xtgn_cdck_listByLocation"
+			},							
+			{
+				"id": "xtgn_cdck_listByRunning"
+			},							
+			{
+				"id": "xtgn_cdck_receive"
+			},							
+			{
+				"id": "xtgn_cdck_finish"
+			},							
+			{
+				"id": "xtgn_cdck_evaluate"
+			},							
+			{
+				"id": "xtgn_cdck_orderPasAliPayPreOrder"
+			},							
+			{
+				"id": "xtgn_cdck_orderPasWechatPayPreOrder"
+			},							
+			{
+				"id": "xtgn_cdck_reserve"
+			},							
+			{
+				"id": "xtgn_cdck_detail"
+			},							
+			{
+				"id": "xtgn_cdck_userinfo"
+			},							
+			{
+				"id": "xtgn_cdck_publish"
+			},							
+			{
+				"id": "xtgn_cdck_approveOwner"
+			},							
+			{
+				"id": "xtgn_cdck_ownerList"
+			},							
+			{
+				"id": "xtgn_cdck_show"
+			},							
+			{
+				"id": "xtgn_cdck_close"
+			},							
+			{
+				"id": "xtgn_cdck_passPayMoney"
+			},							
+			{
+				"id": "xtgn_qmdl"
+			},							
+			{
+				"id": "xtgn_qmdl_statistics"
+			},							
+			{
+				"id": "xtgn_qmdl_today"
+			},							
+			{
+				"id": "xtgn_qmdl_detail"
+			},							
+			{
+				"id": "xtgn_qmdl_genurl"
+			},							
+			{
+				"id": "xtgn_cdck_warn"
+			},							
+			{
+				"id": "xtgn_cdcz_warn"
+			},							
+			{
+				"id": "appgn_userpushsync"
+			},							
+			{
+				"id": "appgn_userpushnoread"
+			},							
+			{
+				"id": "appgn_userpushlist"
+			},							
+			{
+				"id": "appgn_userpushread"
+			}
+		],
+		"seq": 2
+	},
+	{
+		"id": "agentRole",
+		"name": "代理商角色",
+		"resources": [	
+			{
+				"id": "xtgn_usermenu"
+			},							
+			{
+				"id": "dlspt"
+			},
+			{
+				"id": "dlspt_dlstj"
+			},
+			{
+				"id": "dlspt_dlstj_statisticsOrder"
+			},
+			{
+				"id": "dlspt_dlstj_statisticsOrderMoney"
+			},
+			{
+				"id": "dlspt_dlstj_statisticsUserRegist"
+			}
+		],
+		"seq": 3
+	},
+	{
+	}
+]

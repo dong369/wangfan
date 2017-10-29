@@ -1,0 +1,10 @@
+[
+{"id":"tag1","tagName":"不能抽烟","seq":"1"},
+{"id":"tag2","tagName":"不能带宠物","seq":"2"},
+{"id":"tag3","tagName":"不能带小孩","seq":"3"},
+{"id":"tag4","tagName":"准时出发","seq":"4"},
+{"id":"tag5","tagName":"顺路接送","seq":"5"},
+{"id":"tag6","tagName":"全程高速","seq":"6"},
+
+{}
+]

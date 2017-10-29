@@ -1,0 +1,8 @@
+[
+{"id":"zhangsan","mobilePhone":"13611111111","pwd":"123456","balance":"0.00","userIcon":"static/images/user.jpg","roles":[{"id":"app"}],"status":"认证通过","username":"张三","idNumber":"410184199205122321"},
+{"id":"lisi","mobilePhone":"13622222222","pwd":"123456","balance":"0.00","userIcon":"static/images/user.jpg","roles":[{"id":"app"}],"status":"认证通过","username":"李四","idNumber":"410184199205122322"},
+{"id":"jincai","mobilePhone":"15890699682","pwd":"123456","balance":"0.00","userIcon":"static/images/user.jpg","roles":[{"id":"admin"}],"status":"认证通过","username":"晋彩","idNumber":"410184199205122323"},
+{"id":"wangwu","mobilePhone":"13633333333","pwd":"123456","balance":"0.00","userIcon":"static/images/user.jpg","roles":[{"id":"app"}],"status":"认证通过","username":"王五","idNumber":"410184199205122324"},
+{"id":"zhaoliu","mobilePhone":"13644444444","pwd":"123456","balance":"0.00","userIcon":"static/images/user.jpg","roles":[{"id":"app"}],"status":"认证通过","username":"赵六","idNumber":"410184199205122325"},
+{}
+]
